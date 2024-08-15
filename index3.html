@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1>
+      
+      <title> Contact Form </title>
+      <link rel="stylesheet" href= "style4.css">
+      <style>
+        *{
+    background-color: white;
+}
+h1{
+    color: plum;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 30px;
+
+}
+input{
+    background-color: lavender;
+    width: 70%;
+    margin-left: 12%;
+    font-size: 10px;
+    padding: 16px 16px;
+    border-radius: 10px;
+    border-color:white;
+    margin-bottom: 25px; 
+
+}
+textarea{
+    background-color: lavender;
+    width: 70%;
+    margin-left: 12%;
+    font-size: 10px;
+    padding: 16px 16px;
+    border-radius: 10px;
+    border-color: white;
+    margin-bottom: 25px;
+}
+input:focus-within{
+    outline: none;
+    border-color: lavender;
+    border-width: 3px;
+}
+textarea:focus-within{
+    outline: none;
+    border-color: plum;
+    border-width: 3px;
+}
+button{
+    background-color: lavender;
+    border-radius: 20px;
+    border-color: lavender;
+    font-size: 22px;
+    padding: 10px 18px;
+    text-align: center;
+    display: flex;
+    margin:auto;
+}
+button:hover{
+    opacity: 80%;
+    cursor: pointer;
+}
+.hero-btn{
+    margin-left: 650px;
+    display: inline-block;
+    text-decoration: none;
+    color: plum;
+    border: 1px solid plum;
+    padding: 12px 34px;
+    padding-left: 40px;
+    font-size: 15px;
+    background: transparent;
+    position: center;
+    align-items: center;
+    cursor: pointer;
+}
+.hero-btn:hover{
+    border: 1px solid plum;
+    background:lavender;
+    transition: 1s;
+    text-align: center;
+}
+h2, h5{
+    color: plum;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 30px;
+    
+    }
+.gallery{
+    padding-left: 100px;
+    padding-between:30px;
+}
+</style> 
+ </head>
+
+    <body>
+        <nav>
+            <a href="index3.html"><img src="images/logo.jpg" height="100px" weidth="100px"></a>
+     <h1><em>Contact Us</em></h1>
+     <input type="text" name="first" placeholder="First Name" autocomplete="off" required>
+     <input type="text" name="last" placeholder="Last Name" autocomplete="off" required>
+     <input type="email" name="email" placeholder="Email Address" autocomplete="off" required>
+     <textarea rows="5" col="60" name="message" placeholder="Enter Text" autocomplete="off" required></textarea>
+     <button type="submit" Send Us Message></button> 
+        <section class="header">
+        </nav>
+        
+        <footer>
+         <h2><em>We Make Your Day Sweeter!</em></h2>
+         <br>
+         <h5><em>Our Sweet Gallery</em></h5>
+         <div class="gallery">
+            <img src="images/trouffles.jpg" height="400px" width="300px">
+            <img src="images/wedcake.jpg"height="400px" width="300px">
+            <img src="images/madel.jpg"height="400px" width="300px">
+            <img src="images/mmacar.jpg"height="400px" width="300px">
+         </div>    
+         <a href="index.html" class="hero-btn">Back To Home Page</a>
+       </footer>
+    </body>
+</html>

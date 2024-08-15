@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Lavender Bakery</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;1,100;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+        <style>
+            h1{
+                font-size: 60px;
+                font-weight: 500;
+            }
+        
+        </style>
+    </head>
+    
+    <body>
+        <section class="header">
+            <nav>
+                    <a href="index3.html"><img src="images/logo.jpg" height="100px" weidth="100px"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                    <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index2.html">Products</a></li>
+                    <li><a href="index3.html">Contact</a></li>
+                    </ul>
+                </div>
+                <i class="fa-solid fa-bars"onclick="showMenu()"></i>
+            </nav> 
+        </section>
+        <div class="text-box">
+        <h1 id="Welcome">Welcome to<br><em>Lavender Bakery!</em></h1>
+        <p>Our sweets are all you might need to make every day special.</p>
+    
+        <p id="love">Made for you<br><em>{With Love}</em></p>
+        </div>
+        
+        </section> 
+      
+
+
+
+
+
+<!--------JavaScript for Menu-------->
+<script>
+    var navLinks=document.getElementById("navLinks");
+    function showMenu(){ navLinks.styles.right="0";    
+    }
+    function hideMenu(){ navLinks.styles.right="-200px";    
+}
+</script>
+<main>
+<footer>
+    <a href="index2.html" class="hero-btn">Visit our catalog</a>
+    <br>
+    <br>
+    <h5><em>We love cake! <br>As an artisan cake specialists, we're always seeking new challenges and innovative ways of making your sweet treats.
+    </em></h5>
+
+   
+
+ <div class="gallery">
+    <img src="images/cuppie.jpg" height="500px" width="350px">
+    <img src="images/bcake.jpg"height="500px" width="350px">
+    <img src="images/donutswithlevanderglaze.jpg"height="500px" width="350px">
+    <img src="images/lvd.jpg"height="500px" width="350px">
+ </div>
+
+ <a href="mailto:martina@fake.com" class="hero-btn">Email Us</a>
+ </footer>
+</main>
+</body>
+</html>
